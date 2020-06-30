@@ -20,10 +20,10 @@ function Footer() {
                 <center>
                         <h3>Find Us</h3>
                     </center>
-                    {/* <iframe className='map'
+                    <iframe className='map' title='Maps'
                         src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland+(Main%20kuy)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
                         frameborder="0" scrolling="no"><a
-                            href="https://www.maps.ie/draw-radius-circle-map/">Radius map tool</a></iframe> */}
+                            href="https://www.maps.ie/draw-radius-circle-map/">Radius map tool</a></iframe>
                 </div> 
             </section>
         </div>
