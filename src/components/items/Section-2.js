@@ -17,24 +17,23 @@ function Section2() {
             </section>
 
             <section className='list1'>
-                <div className="listphoto">
+                <div>
                     <img src={image5} className='img1' alt='after'></img>
-                    <h3 className="title">Movie</h3>
+                    
                 </div>
 
-                <div className="listphoto">
+                <div>
                     <img src={image6} className='img1' alt='after'></img>
-                    <h3 className="title">Maze Runner</h3>
+                
                 </div>
 
-                <div className="listphoto">
+                <div>
                     <img src={image7} className='img1' alt='after'></img>
-                    <h3 className="title">US</h3>
+                    
                 </div>
 
-                <div className="listphoto">
+                <div>
                     <img src={image8} className='img1' alt='after'></img>
-                    <h3 className="title">Replicas</h3>
                 </div>
             </section>
         </div>

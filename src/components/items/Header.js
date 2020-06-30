@@ -9,12 +9,12 @@ function Header() {
                 <h1>Movie Dulu</h1>
 
                 <div className='item'>
-                    <ul>
+                    {/* <ul> */}
                     <a href="/">Menu</a>
                     <a href="/">Menu</a>
                     <a href="/">Menu</a>
                     <a href="/">Menu</a>
-                    </ul>
+                    {/* </ul> */}
                 </div>
             </section>
 
@@ -26,5 +26,4 @@ function Header() {
         </div>
     )
 }
-
 export default Header
