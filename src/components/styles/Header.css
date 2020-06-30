@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+    font-size: xx-large;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(https://images4.alphacoders.com/653/653613.jpg);
+    width: 100%;
+    height: 800px;
+    color: white;
+    background-size: cover;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.item {
+    margin-right: 50px;
+}
+
+.slogan {
+    margin-left: 50px;
+    margin-bottom: 600px;
+}
+
+@media only screen and (max-width: 450px) {
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        background-image: url(https://images4.alphacoders.com/653/653613.jpg);
+        width: 100%;
+        height: 800px;
+        color: white;
+        background-size: cover;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 50px;
+    }
+
+    .item {
+        margin-right: 50px;
+    }
+    
+    .slogan {
+        margin-left: 50px;
+        margin-bottom: 600px;
+    }
+}
